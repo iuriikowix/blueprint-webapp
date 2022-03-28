@@ -5,8 +5,8 @@ import styles from './gift-card.module.scss';
 
 export interface GiftCardProps { 
     photoURL?: string;
-    full?: boolean
-
+    full?: boolean;
+    comment?: string;
 }
 
 /**
@@ -18,8 +18,8 @@ export interface GiftCardProps {
  */
 export const GiftCard: React.FC<GiftCardProps> = ({      
     photoURL = defaultPhotoURL,
-    full = false
-
+    full = false,
+    comment = 'defeult comment placeholder',
 }) => {
     return (
         <Card className={`${styles.card}${full ? ` ${styles.full}` : '' }`} elevation={Elevation.FOUR}>
