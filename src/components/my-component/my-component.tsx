@@ -3,6 +3,8 @@ import styles from './my-component.module.scss'
 
 export interface MyComponentProps {
     className?: string;
+    foo?: string;
+    bar?: number;
 }
 
 export const MyComponent: React.FC<MyComponentProps> = ({ className }) => {
