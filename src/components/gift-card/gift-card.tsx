@@ -5,8 +5,8 @@ import styles from './gift-card.module.scss';
 
 export interface GiftCardProps { 
     photoURL?: string;
-    full?: boolean
-
+    full?: boolean;
+    test?: string;
 }
 
 /**
