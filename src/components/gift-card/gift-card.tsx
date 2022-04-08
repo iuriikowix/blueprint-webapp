@@ -8,6 +8,7 @@ export interface GiftCardProps {
     full?: boolean;
     test?: string;
     test2?: string;
+    test3?: number;
 }
 
 /**
