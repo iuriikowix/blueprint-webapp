@@ -7,6 +7,7 @@ export interface GiftCardProps {
     photoURL?: string;
     full?: boolean;
     test?: string;
+    test2?: string;
 }
 
 /**
